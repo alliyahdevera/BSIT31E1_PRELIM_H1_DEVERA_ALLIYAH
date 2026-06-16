@@ -67,7 +67,7 @@ namespace StudentManagementSystem
                 }
                 else
                 {
-                    Console.WriteLine("Invalid Choice. Choose 1-5 only.");
+                    Console.WriteLine("Invalid Choice. Choose 1-5 only.\n");
                 }
             }
         }
@@ -121,7 +121,7 @@ namespace StudentManagementSystem
             Student student = new Student(name, grades);
             students.Add(student);
 
-            Console.WriteLine("Student added successfully!");
+            Console.WriteLine("Student added successfully!\n");
         }
 
         static void ViewAllStudents()
@@ -162,7 +162,7 @@ namespace StudentManagementSystem
             double classAverage = totalAverage / students.Count;
 
             Console.WriteLine("===== CLASS AVERAGE =====");
-            Console.WriteLine($"Overall Average Grade: {classAverage:F2}");
+            Console.WriteLine($"Overall Average Grade: {classAverage:F2}\n");
 
         }
 
@@ -194,7 +194,7 @@ namespace StudentManagementSystem
 
             Console.WriteLine("===== HIGHEST GRADE =====");
             Console.WriteLine($"Top Student: {topStudent.Name}");
-            Console.WriteLine($"Highest Grade: {highestGrade}");
+            Console.WriteLine($"Highest Grade: {highestGrade}\n");
         }
 
     }
