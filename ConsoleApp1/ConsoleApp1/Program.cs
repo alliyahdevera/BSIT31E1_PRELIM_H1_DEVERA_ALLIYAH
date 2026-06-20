@@ -1,6 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿    
 
+class Program
+    {
+        static List<Student> students = new List<Student>();
+
+        static void Main(string[] args)
 namespace StudentManagementSystem
 {
     class Student
@@ -38,4 +42,5 @@ namespace StudentManagementSystem
 
             return sum / grades.Count;
         }
+
 }
