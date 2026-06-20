@@ -62,3 +62,5 @@ nunit-*.xml
 /ConsoleApp1/.vs/ConsoleApp1/FileContentIndex
 /ConsoleApp1/.vs/ConsoleApp1/v17/DocumentLayout.json
 /ConsoleApp1/.vs/ConsoleApp1/v17/.suo
+/.vs
+/ConsoleApp1/.vs/ConsoleApp1
