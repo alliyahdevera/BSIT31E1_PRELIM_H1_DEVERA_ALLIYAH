@@ -56,3 +56,9 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 /.idea/
+/.vs
+/ConsoleApp1/.vs/ConsoleApp1/CopilotIndices/17.13.433.20974
+/ConsoleApp1/.vs/ConsoleApp1/DesignTimeBuild
+/ConsoleApp1/.vs/ConsoleApp1/FileContentIndex
+/ConsoleApp1/.vs/ConsoleApp1/v17/DocumentLayout.json
+/ConsoleApp1/.vs/ConsoleApp1/v17/.suo
